@@ -37,6 +37,7 @@ gem 'parse-cron'
 gem 'jquery-rails'
 gem 'lograge'
 
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -50,6 +51,8 @@ group :development do
   gem 'better_errors',      '~> 1.1.0 '
   gem 'guard-rspec'
   gem 'rb-fsevent',         '~> 0.9.1'
+  #add capistrano gem
+  gem 'capistrano',         '~> 3.9'
 end
 
 group :development, :test do
